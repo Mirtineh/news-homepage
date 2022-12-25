@@ -27,7 +27,7 @@ function App() {
           <img
             src={webDesktop}
             alt=""
-            className="hidden sm:block sm:col-span-2"
+            className="hidden sm:block sm:col-span-2 w-full h-full object-cover"
           />
           <img src={webMoble} alt="" className="sm:hidden" />
           <p className="text-very-dark-blue text-5xl font-bold sm:row-start-2 self">
