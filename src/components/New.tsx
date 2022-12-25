@@ -5,7 +5,7 @@ interface NewProps {}
 
 const New: FunctionComponent<NewProps> = () => {
   return (
-    <div className="bg-very-dark-blue p-5">
+    <div className="bg-very-dark-blue p-5 my-7 sm:row-span-2">
       <div className="flex flex-col gap-5">
         <h1 className="text-soft-orange font-medium text-lg">New</h1>
         <NewItem
