@@ -23,17 +23,17 @@ function App() {
             <NavItem name="Categories" />
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mt-6">
+        <div className="grid items-center grid-cols-1 sm:grid-cols-3 gap-5 mt-6">
           <img
             src={webDesktop}
             alt=""
             className="hidden sm:block sm:col-span-2"
           />
           <img src={webMoble} alt="" className="sm:hidden" />
-          <p className="text-very-dark-blue text-5xl font-bold">
+          <p className="text-very-dark-blue text-5xl font-bold sm:row-start-2">
             The Bright Future of Web 3.0?
           </p>
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-5 sm:row-start-2">
             <p className="text-dark-grayish-blue">
               We dive into the next evolution of the web that claims to put the
               power of the platforms back into the hands of the people. But is
