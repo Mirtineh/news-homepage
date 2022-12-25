@@ -10,7 +10,7 @@ import Article from "./components/Article";
 
 function App() {
   return (
-    <div className="flex justify-center items-center h-screen w-full font-inter px-3 py-3 sm:px-40 sm:py-24">
+    <div className="flex justify-center items-center min-h-screenh-screen w-full font-inter px-3 py-3 sm:px-80 sm:py-24">
       <div className="w-full h-full">
         <div className="flex justify-between items-center">
           <h1 className="text-very-dark-blue text-7xl font-bold italic">W.</h1>
@@ -23,14 +23,14 @@ function App() {
             <NavItem name="Categories" />
           </div>
         </div>
-        <div className="grid items-center grid-cols-1 sm:grid-cols-3 gap-5 mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 sm:gap-x-6 sm:gap-y-10 mt-6">
           <img
             src={webDesktop}
             alt=""
             className="hidden sm:block sm:col-span-2"
           />
           <img src={webMoble} alt="" className="sm:hidden" />
-          <p className="text-very-dark-blue text-5xl font-bold sm:row-start-2">
+          <p className="text-very-dark-blue text-5xl font-bold sm:row-start-2 self">
             The Bright Future of Web 3.0?
           </p>
           <div className="flex flex-col gap-5 sm:row-start-2">
@@ -39,7 +39,7 @@ function App() {
               power of the platforms back into the hands of the people. But is
               it really fulfilling its promise?
             </p>
-            <button className="bg-sort-red text-Off-white p-3 tracking-widest w-1/2">
+            <button className="bg-sort-red text-Off-white p-3 tracking-widest w-1/2 hover:text-Off-white hover:bg-very-dark-blue">
               READ MORE
             </button>
           </div>

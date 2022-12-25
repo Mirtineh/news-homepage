@@ -14,11 +14,13 @@ const Article: FunctionComponent<ArticleProps> = ({
   description,
 }) => {
   return (
-    <div className="flex gap-3">
+    <div className="flex gap-3 sm:mt-5">
       <img src={imgSrc} alt="" className="w-28 h-32" />
       <div className="flex flex-col justify-between gap-3">
         <p className="text-dark-grayish-blue text-2xl">{sequence}</p>
-        <p className="text-very-dark-blue font-medium">{title}</p>
+        <p className="text-very-dark-blue font-medium hover:text-sort-red hover:cursor-pointer">
+          {title}
+        </p>
         <p className=" text-dark-grayish-blue">{description}</p>
       </div>
     </div>
