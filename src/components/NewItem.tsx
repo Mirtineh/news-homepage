@@ -8,7 +8,7 @@ interface NewItemProps {
 const NewItem: FunctionComponent<NewItemProps> = ({ title, description }) => {
   return (
     <div className="flex flex-col gap-2">
-      <p className="text-Off-white font-bold hover:text-soft-orange hover:cursor-pointer">
+      <p className="text-Off-white font-bold hover:text-soft-orange hover:cursor-pointer text-lg">
         {title}
       </p>
       <p className="text-grayish-blue">{description}</p>

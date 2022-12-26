@@ -7,7 +7,7 @@ const New: FunctionComponent<NewProps> = () => {
   return (
     <div className="bg-very-dark-blue p-5 my-7 sm:my-0 sm:row-span-2">
       <div className="flex flex-col justify-around h-full gap-5">
-        <h1 className="text-soft-orange font-medium text-lg sm:text-3xl">
+        <h1 className="text-soft-orange font-medium text-xl sm:text-3xl">
           New
         </h1>
         <NewItem

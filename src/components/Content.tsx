@@ -13,7 +13,7 @@ const Content: FunctionComponent<ContentProps> = () => {
         className="hidden sm:block sm:col-span-2 w-full h-full object-cover"
       />
       <img src={webMoble} alt="" className="sm:hidden" />
-      <p className="text-very-dark-blue text-6xl font-bold sm:row-start-2 self">
+      <p className="text-very-dark-blue text-5xl font-bold sm:row-start-2 self">
         The Bright Future of Web 3.0?
       </p>
       <div className="flex flex-col gap-5 sm:row-start-2">

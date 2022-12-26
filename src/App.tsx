@@ -5,8 +5,8 @@ import Content from "./components/Content";
 
 function App() {
   return (
-    <div className="flex justify-center items-center min-h-screenh-screen w-full font-inter px-3 py-3 sm:px-80 sm:py-24">
-      <div className="w-full h-full">
+    <div className="flex justify-center items-center min-h-screenh-screen w-full font-inter">
+      <div className="max-w-7xl sm:my-20 m-3">
         <Navigation />
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 sm:gap-x-6 sm:gap-y-10 mt-6">
           <Content />
