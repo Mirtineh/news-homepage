@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Mirtineh/news-homepage/)
-- Live Site URL: [Add live site URL here](https://mirtineh.github.io/news-homepage/)
+- Solution URL: [Solution](https://github.com/Mirtineh/news-homepage/)
+- Live Site URL: [Live Site](https://mirtineh.github.io/news-homepage/)
 
 ## My process
 
